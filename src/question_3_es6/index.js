@@ -1,0 +1,102 @@
+/*
+* Write a function (say fruitPresent('fruit-name') )to find out if a given input
+* is present in the array below using ES6.
+*
+* Output should be true or false.
+* */
+
+/**
+ * Take a fruit name and checks if it is contained in the fruits array.
+ * @param fruit
+ * @returns {boolean}
+ */
+export default fruit => {
+  let fruits = [
+    "Apple",
+    "Apricot",
+    "Avocado",
+    "banana",
+    "Blackberry",
+    "Blueberry",
+    "Boysenberry",
+    "Crab apples",
+    "Currant",
+    "Cherry",
+    "Cherimoya",
+    "Chico fruit",
+    "Coconut",
+    "Cranberry",
+    "Custard apple",
+    "Date",
+    "dragonfruit",
+    "durian",
+    "Elderberry",
+    "Feijoa",
+    "Fig",
+    "Goji berry",
+    "Gooseberry",
+    "grape",
+    "Grapefruit",
+    "Guava",
+    "Honeyberry",
+    "Huckleberry",
+    "Jabuticaba",
+    "Jackfruit",
+    "Jambul",
+    "jujube",
+    "Juniper berry",
+    "Kiwifruit",
+    "Kumquat",
+    "Lemon",
+    "Lime",
+    "Loquat",
+    "Longan",
+    "Lychee",
+    "Mango",
+    "Mangosteen",
+    "Marionberry",
+    "Melon",
+    "Cantaloupe",
+    "Honeydew",
+    "Watermelon",
+    "Miracle fruit",
+    "Mulberry",
+    "Nectarine",
+    "Nance",
+    "Olive",
+    "Orange",
+    "Blood orange",
+    "Clementine",
+    "Mandarine",
+    "Tangerine",
+    "Papaya",
+    "Passionfruit",
+    "Peach",
+    "Pear",
+    "Persimmon",
+    "Plantain",
+    "Plum",
+    "Prune",
+    "Pineapple",
+    "Pluot",
+    "Pomegranate",
+    "Pomelo",
+    "Quince",
+    "Raspberry",
+    "Rambutan",
+    "Redcurrant",
+    "Salal berry",
+    "Salak",
+    "Salmonberry",
+    "Satsuma",
+    "Soursop",
+    "Star fruit",
+    "Strawberry",
+    "Tamarillo",
+    "Tamarind",
+    "Ugli fruit",
+    "Yuzu"
+  ];
+
+  return fruits.some(f => f.toLowerCase() === fruit.toLowerCase());
+};

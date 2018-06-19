@@ -1,0 +1,36 @@
+/**
+* Base style
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-table-background: #ffe;
+  --color-table-border: 1px solid #c7c7c7;
+  --color-table-shadow: 10px 5px rgba(0, 0, 0, 0.2);
+  --color-font-shadow: 10px 5px rgba(56, 56, 56, 0.1);
+}
+
+::selection {
+}
+
+body {
+  font-size: 62.5%; // 1 rem = 10px
+  font-family: sans-serif;
+
+  background-size: cover;
+  background: linear-gradient(to bottom right, #444, #888) no-repeat fixed;
+}
